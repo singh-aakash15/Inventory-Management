@@ -23,10 +23,10 @@ public class OrdersController {
 
     private final OrdersService orderService;
 
-//    @GetMapping("/helloOrders")
-//    public String helloOrders() {
-//        return "Hello from Orders Service";
-//    }
+    @GetMapping("/helloOrders")
+    public String helloOrders() {
+        return "Hello from Orders Service";
+    }
 //
 //    @PostMapping("/create-order")
 //    public ResponseEntity<OrderRequestDto> createOrder(@RequestBody OrderRequestDto orderRequestDto) {
